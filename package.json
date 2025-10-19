@@ -1,0 +1,25 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "A project using Tailwind CSS for styling.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "build": "tailwindcss build src/css/styles.css -o dist/styles.css",
+    "watch": "tailwindcss build src/css/styles.css -o dist/styles.css --watch",
+    "start": "live-server src"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.2.19",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "tailwindcss",
+    "css",
+    "frontend"
+  ]
+}
